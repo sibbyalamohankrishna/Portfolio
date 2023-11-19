@@ -1,0 +1,332 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+}
+
+.navbar-toggler-icon {
+    font-size: 15px;
+}
+
+.mk {
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0 6px 0 6px;
+    transition: all 0.5s;
+}
+
+.mk:hover {
+    transform: scale(1.1) ;
+    border: 2px solid #000000;  
+}
+
+#nav__link {
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+}
+
+#nav__link:hover {
+    transform: scale(1.2);
+}
+
+.main-container {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+    width:100vw;
+    overflow: hidden;
+}
+
+.profile-section {
+    height:90vh;
+}
+
+.b1 {
+    height:450px;
+    width:450px;
+    border-radius: 100%;
+    border:none;
+    position: absolute;
+    right:-100px;
+    top:-70px;
+    background-color:#bbbbbb;
+    z-index: -5;
+}
+
+.b2 {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    right: -100px;
+    top: -80px;
+    background-color: #636363;
+    z-index: -4;
+}
+
+.b3 {
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    right: -100px;
+    top: -90px;
+    background-color: #383838;
+    z-index: -3;
+}
+
+.b4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    background-color:rgb(0, 0, 0);
+    z-index: -2;
+}
+
+.b5 {
+    height: 380px;
+    width: 380px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    left: -180px;
+    top: 400px;
+    background-color: #949494;
+    z-index: -2;
+}
+
+.b6 {
+    height: 380px;
+    width: 380px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    right: -200px;
+    top: 980px;
+    background-color: #949494;
+    z-index: -2;
+}
+
+.b7 {
+    height: 380px;
+    width: 380px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    left: -220px;
+    top: 1500px;
+    background-color: #949494;
+    z-index: -2;
+}
+    
+.banner-section {
+    height:100vh;
+    width: 100vw;
+}
+
+.profile-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-pic{
+    width:120px;
+    height:120px;
+    border-radius: 100%;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    padding:2px;
+    background-color: white;
+}
+
+.hello {
+    font-size: 14px;
+    font-weight: bold;
+}
+.name {
+    font-weight:bold;
+    font-size: 24px;
+
+}
+.full-stack {
+    font-weight: bold;
+    font-size: 28px;;
+
+}
+.about-me {
+    width:50vw;
+    word-spacing: 6px;
+    font-size: 14px;
+}
+
+.about-me-mobile {
+    word-spacing: 6px;
+    font-size: 14px;
+    
+}
+
+.download , .reach-me {
+    color:#ffffff;
+    text-decoration: none;
+    background-color: black;
+    padding: 8px 16px;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index:1;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.download:hover, .reach-me:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    border:1px solid black;
+    color: black;
+}
+
+
+.section-heading {
+    font-size:40px;
+    font-weight: bold;
+    
+}
+
+.work-description {
+    font-size:16px;
+    font-weight: 500;
+}
+
+.works-done-card {
+    border-radius: 10px;
+    border: 2px solid #acacac;
+    
+}
+
+.work-link {
+    text-decoration: none;
+}
+
+.work-image {
+    
+    border-style: none;
+    border-radius: 10px;
+}
+
+.work-card-heading {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.work-card-description {
+    font-size: 14px;
+
+}
+
+.git-icon {
+    font-size: 20px;
+}
+
+ul {
+    list-style:none;
+    
+}
+li {
+    display:inline
+}
+
+.git-profile {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div ul li a span {
+    font-weight: bold;
+}
+
+div ul li a {
+    text-decoration: none;
+    color:#000000;
+    line-height: 3;
+}
+
+.skill-card {
+    border-radius: 10px;
+    border:2px solid #acacac;
+    align-items: center;
+    height: 90px;
+    text-align: center; 
+}
+
+.skill-logo {
+    width:50px;
+}
+
+.skill-heading {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.send-a-message {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input, textarea {
+    width:100%;
+    border-style: none;
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    border-color:#000000;
+    color:#949494;
+    padding-bottom:10px;
+    background-color: transparent;
+}
+
+.textarea-msg {
+    resize: none;
+}
+
+.footerr {
+    background-color: #6e6e6e;
+    align-items: center;
+}
+
+.f-author {
+    font-size: 14px;
+    color:#ffffff;
+}
+
+.footer-social-icon {
+    text-decoration: none;
+    padding: 10px;
+    margin: 3px;
+    font-size: 20px;
+    border-radius:100%;
+    background-color: #a5a5a5;
+    width:40px;
+}
+
+.footer-social {
+    background-color: #a5a5a5;
+    height:40px;
+    width:40px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 8px 0 0 0;
+}
