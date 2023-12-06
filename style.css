@@ -348,3 +348,14 @@ input, textarea {
 .footer-social:hover{
     background-color: #ffffff;
 }
+
+.contact-form-container {
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100vw;
+    height: 100vh;
+}
