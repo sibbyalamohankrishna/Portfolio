@@ -158,15 +158,15 @@
     font-size: 14px;
     font-weight: bold;
 }
+
 .name {
     font-weight:bold;
     font-size: 24px;
-
 }
+
 .full-stack {
     font-weight: bold;
-    font-size: 28px;;
-
+    font-size: 28px;
 }
 .about-me {
     width:50vw;
@@ -176,8 +176,7 @@
 
 .about-me-mobile {
     word-spacing: 6px;
-    font-size: 14px;
-    
+    font-size: 14px; 
 }
 
 .download , .reach-me {
@@ -186,7 +185,7 @@
     background-color: black;
     padding: 8px 16px;
     border-style: none;
-    border-radius: 8px;
+    border-radius: 20px;
     font-weight: bold;
     z-index:1;
     cursor: pointer;
@@ -197,14 +196,12 @@
     transform: scale(1.05);
     background-color: transparent;
     border:1px solid black;
-    color: black;
+    color: black; 
 }
-
 
 .section-heading {
     font-size:40px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 .work-description {
@@ -214,20 +211,19 @@
 
 .works-done-card {
     border-radius: 10px;
-    border: 2px solid #acacac;
-    
+    border: 2px solid #acacac;  
 }
 
 .work-link {
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
 .anim{
     transition: all 0.5s;
 }
+
 .anim:hover{
-    transform: scale(1.03);
-    
+    transform: scale(1.03);    
 }
 
 .work-image {
@@ -243,7 +239,6 @@
 
 .work-card-description {
     font-size: 14px;
-
 }
 
 .git-icon {
@@ -251,8 +246,7 @@
 }
 
 ul {
-    list-style:none;
-    
+    list-style:none;   
 }
 li {
     display:inline
@@ -281,11 +275,13 @@ div ul li a {
     text-align: center;
     position: relative;
 }
+
 .card-star{
     position: absolute;
     top:10px;
     right: 16px;
 }
+
 .skill-logo {
     width:50px;
 }
