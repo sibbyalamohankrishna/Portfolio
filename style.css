@@ -80,7 +80,7 @@
     position: absolute;
     right: -100px;
     top: -90px;
-    background-color: #383838;
+    background-color: #303030;
     z-index: -3;
 }
 
@@ -181,7 +181,7 @@
     font-size: 14px; 
 }
 
-.download , .reach-me {
+.download, .reach-me {
     color:#ffffff;
     text-decoration: none;
     background-color: black;
@@ -207,8 +207,9 @@
 }
 
 .work-description {
-    font-size:16px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;;
+    line-height: 1.5;
 }
 
 .works-done-card {
@@ -250,6 +251,7 @@
 ul {
     list-style:none;   
 }
+
 li {
     display:inline
 }
@@ -276,6 +278,12 @@ div ul li a {
     height: 90px;
     text-align: center;
     position: relative;
+}
+.skill-card:hover,.works-done-card:hover{
+    transform: scale(1.05);
+    border: 2px solid #000000;
+    background-color: #bbbbbb;
+    transition: all 0.5s;
 }
 
 .card-star{
@@ -356,4 +364,10 @@ input, textarea {
 .contact-form {
     width: 100vw;
     height: 100vh;
+}
+
+p[class *="about-me"] {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
 }
